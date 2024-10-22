@@ -42,7 +42,7 @@ let phi3 x = cos(x) / (2. * sin(x))
 
 let main =
     printfn "Dichotomy for f1: %10.5f" (dichotomy f1 2. 3.)
-    // printfn "Iterations for f1: %10.5f" (iterations phi1 2.5) // это говно не выводится
+    // printfn "Iterations for f1: %10.5f" (iterations phi1 2.5) // это не выводится
     printfn "Newton for f1: %10.5f" (newton g1 3.)
 
     printfn "Dichotomy for f2: %10.5f" (dichotomy f2 2. 3.) 
